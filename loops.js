@@ -2,9 +2,9 @@ function forLoop(array){
   let newArray = [];
   for(let i = 0; i <= 25; i++){
     if(newArray[i] === 1){
-      console.log("I am 1 strange loop.");
+      newArray  += "I am 1 strange loop.";
     } else {
-      console.log("I am ${i} strange loop.");
+      newArray += "I am ${i} strange loop.";
   }
 } 
 }
